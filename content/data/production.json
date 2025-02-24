@@ -1,0 +1,39 @@
+{
+  "services": {
+    "aircon": [11920, 11100, 11090],
+    "aircon-premium": [12050, 11210, 11180],
+    "ceiling-aircon": [1000180, 1000190, 1000300],
+    "fan": [12020, 12200, 12360],
+    "bath": [11940, 12120, 12280],
+    "kitchen": [12000, 12180, 12340],
+    "toilet": [12010, 12190, 12350],
+    "washroom": [12040, 12220, 12380],
+    "washing_machine": [12030, 12210, 12370],
+
+    "aircon-bath": [11870, 12060, 11850],
+    "aircon-fan": [11880, 12070, 12230],
+    "aircon-kitchen-fan": [11900, 12090, 12250],
+    "aircon-fan-bath": [11890, 12080, 12240],
+    "aircon-kitchen-fan-bath": [11910, 12100, 12260],
+
+    "fan-bath": [11930, 12110, 12270],
+    "kitchen-fan": [11950, 12130, 12290],
+    "kitchen-fan-bath": [11960, 12140, 12300],
+    "kitchen-fan-bath-toilet": [11970, 12150, 12310],
+    "kitchen-fan-bath-washroom": [11990, 12170, 12330],
+    "kitchen-fan-bath-toilet-washroom": [11980, 12160, 12320],
+
+    "premium-bath": [11940],
+    "premium-fan": [12020],
+    "premium-fan-bath": [11930],
+    "premium-kitchen-fan-bath": [11960],
+    "premium-kitchen-fan-bath-toilet-washroom": [11980],
+    "premium-aircon-bath": [11870],
+    "premium-aircon-kitchen-fan": [11900],
+    "premium-aircon-fan-bath": [11890],
+    "premium-aircon-kitchen-fan-bath": [11910],
+    "premium-aircon-fan": [11880],
+    "premium-kitchen-fan-bath-toilet": [11970],
+    "premium-kitchen-fan": [11950]
+  }
+}

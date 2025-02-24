@@ -1,17 +1,17 @@
 <script setup lang="ts">
-const { data } = await useAsyncData(() => queryCollection('content').path('/').first())
-const { data: officialServiceIds } = await useAsyncData('officialServiceIds', () => {
-  return queryCollection('officialServiceIds')
-    .first()
-    .then((result) => result?.services?.aircon ?? []); 
-})
-console.log(officialServiceIds.value, 'officialServiceIds')
+const { data } = await useAsyncData('index', () =>
+  queryCollection('docs').path('/').first(),
+)
 </script>
 
 <template>
-  <div>
-    <p>officialServiceIds: {{ officialServiceIds }}</p>
-    <ContentRenderer v-if="data" :value="data" />
-    <div v-else>コンテンツが見つかりませんでした。</div>
+  <ContentRenderer
+    v-if="data"
+    :value="data"
+  />
+  <div v-else>
+    <h1>Page not found</h1>
   </div>
 </template>
+
+<style scoped></style>
