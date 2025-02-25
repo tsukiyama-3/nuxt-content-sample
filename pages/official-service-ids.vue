@@ -2,7 +2,7 @@
 const { data: officialServiceIds } = await useAsyncData('officialServiceIds', () => {
   return queryCollection('officialServiceIds')
     .first()
-    .then((result) => result?.services?.aircon ?? []); 
+    .then(result => result?.services?.aircon ?? [])
 })
 </script>
 
